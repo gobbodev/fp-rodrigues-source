@@ -99,6 +99,36 @@ export const GlobalStyle = createGlobalStyle`
   }
 }
 
+[class*='font-56'] {
+  font-size: 5.6rem;
+  @media only screen and (max-width: 1600px) {
+    font-size: 5.2rem;
+  }
+  @media only screen and (max-width: 1400px) {
+    font-size: 5rem;
+  }
+  @media only screen and (max-width: 1200px) {
+    font-size: 4.8rem;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 4.4rem;
+  }
+  @media only screen and (max-width: 900px) {
+    font-size: 4.2rem;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 3.8rem;
+  }
+  @media only screen and (max-width: 650px) {
+    font-size: 3.6rem;
+  }
+  @media only screen and (max-width: 500px) {
+    font-size: 3.4rem;
+  }
+  @media only screen and (max-width: 390px) {
+    font-size: 3rem;
+  }
+}
 
 h1, h2,  h4, h5{
    font-family: "Yanone Kaffeesatz"!important;//remover
