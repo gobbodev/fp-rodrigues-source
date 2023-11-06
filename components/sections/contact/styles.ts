@@ -143,8 +143,8 @@ export const Contact = styled.section`
             max-width: 362px; //atençao
             width: 100%; //atençao
 
-            [class*="_Button"] {
-              width: 100%;
+            .button-submit div{
+              width:unset;
             }
 
             button {
